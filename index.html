@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ComposerX Showcase</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>ComposerX -- Demo</h1>
+        <h2>Multi-Agent Symbolic Music Composition with LLMs</h2>
+    </header>
+    <section class = "abstract">
+        <h2>Abstract</h2>
+        <p>Music composition represents the creative side of humanity, and itself is a complex task that requires, abilities to understand and generate information in two axes: time and frequency. While demonstrating impressive capabilities in STEM subjects, current LLMs easily fail in this task, generating ill-written music even when equipped with modern techniques like In-Context-Learning and Chain-of-Thoughts. To further explore and enhance LLMs’ potential in music composition by leveraging their reasoning ability and the large knowledge base in music history and theory, we propose ComposerX, an agent-based symbolic music generation framework. We find that applying a multi-agent approach significantly improves the music composition quality of GPT4. We show that ComposerX can generate coherent polyphonic musical compositions with intriguing melodies, following user instructions.</p>
+        <img src = "ComposerX.drawio.png" alt="image demostration", class="demo_image">
+    <main>
+        <!-- Example 1 -->
+        <section class="music-example">
+            <h2>Example 1</h2>
+            <p>Vintage French Chanson: Create a nostalgic chanson piece in C major with a slow tempo. The chord progression will be C, Am, Dm, G, played over 16 bars. Utilize accordion, violin, and upright bass. The accordion should lead with its melodious and expressive sound, the violin should add a romantic and wistful quality, and the upright bass should provide a warm, supporting foundation. This composition should evoke the charm and sentimentality of a vintage French chanson.</p>
+            <audio controls>
+                <source src="demo_samples/001Rue_des_Souvenirs.wav" type="audio/wav">
+                Your browser does not support the audio element.
+            </audio>
+            <div class="images">
+                <img src="sheet_music/sample1.jpeg" alt="Sheet Music Representation" style="width:40%; height:auto">
+                <img src="abc_representation/sample1.png" alt="ABC Notation Representation"  style="width:40%; height:auto">
+            </div>
+            <a href="demo_samples/001Rue_des_Souvenirs.mid" download>Download MIDI</a>
+        </section>
+
+         <!-- Example 2 -->
+         <section class="music-example">
+            <h2>Example 2</h2>
+            <p>River Journey: Develop a composition that follows the flow of a river, using a motif of fluid, meandering melodies and a progression like C-G-Am-Em. Incorporate sounds that mimic the gurgling water and wildlife along the riverbank, set to a tempo that's both tranquil and lively.</p>
+            <audio controls>
+                <source src="demo_samples/011River_Journey.wav" type="audio/wav">
+                Your browser does not support the audio element.
+            </audio>
+            <div class="images">
+                <img src="sheet_music/sample2.jpeg" alt="Sheet Music Representation" style="width:40%; height:auto">
+                <img src="abc_representation/sample2.png" alt="ABC Notation Representation" style="width:40%; height:auto">
+            </div>
+            <a href="demo_samples/011River_Journey.mid" download>Download MIDI</a>
+        </section>
+
+         <!-- Example 3 -->
+         <section class="music-example">
+            <h2>Example 3</h2>
+            <p>Romantic Parisian Cafe: Create a romantic French piece in F major, following the chord progression F-Bb-C7-F. Use instruments like the accordion, violin, and gypsy guitar to set a moderate and romantic tempo. The rhythm should be sensual, much like the ambiance of a cafe in Paris, capturing the romantic and charming essence of the city of love.</p>
+            <audio controls>
+                <source src="demo_samples/017Romantic_Parisian_Stroll.wav" type="audio/wav">
+                Your browser does not support the audio element.
+            </audio>
+            <div class="images">
+                <img src="sheet_music/sample3.jpeg" alt="Sheet Music Representation" style="width:60%; height:auto">
+                <img src="abc_representation/sample3.png" alt="ABC Notation Representation" style="width:40%; height:auto">
+            </div>
+            <a href="demo_samples/017Romantic_Parisian_Stroll.mid" download>Download MIDI</a>
+        </section>
+
+         <!-- Example 4 -->
+         <section class="music-example">
+            <h2>Example 4</h2>
+            <p>Journey Through the Highlands: Compose a piece that reflects the rugged beauty of the Scottish Highlands. Use a bagpipe lead with a chord progression of A-D-E-A. The tempo should be brisk, with a rhythm that feels like a spirited walk through rolling hills and green valleys. Incorporate the sounds of nature to enhance the outdoor ambiance.</p>
+            <audio controls>
+                <source src="demo_samples/025Journey_Through_the_Highlands.wav" type="audio/wav">
+                Your browser does not support the audio element.
+            </audio>
+            <div class="images">
+                <img src="sheet_music/sample4.jpeg" alt="Sheet Music Representation" style="width:40%; height:auto">
+                <img src="abc_representation/sample4.png" alt="ABC Notation Representation" style="width:40%; height:auto">
+            </div>
+            <a href="demo_samples/025Journey_Through_the_Highlands.mid" download>Download MIDI</a>
+        </section>
+        
+         <!-- Example 5 -->
+         <section class="music-example">
+            <h2>Example 5</h2>
+            <p>Tropical Rainforest Rhapsody: Compose a piece inspired by the lushness of a tropical rainforest, using a motif of intricate, layered rhythms and a progression like Dm-C-Bb-A. Include sounds that mimic raindrops and wildlife, creating a rich tapestry of natural harmony, set to a medium tempo.</p>
+            <audio controls>
+                <source src="demo_samples/033Tropical_Rainforest_Rhapsody.wav" type="audio/wav">
+                Your browser does not support the audio element.
+            </audio>
+            <div class="images">
+                <img src="sheet_music/sample5.jpeg" alt="Sheet Music Representation" style="width:40%; height:auto">
+                <img src="abc_representation/sample5.png" alt="ABC Notation Representation" style="width:40%; height:auto">
+            </div>
+            <a href="demo_samples/033Tropical_Rainforest_Rhapsody.mid" download>Download MIDI</a>
+        </section>
+
+         <!-- Example 6 -->
+         <section class="music-example">
+            <h2>Example 6</h2>
+            <p>Urban Jazz Nights: Write a jazz piece that captures the essence of a vibrant city at night, using a motif of smooth, flowing lines and a progression like Fm7-Bb7-Ebmaj7-Abmaj7. Use a saxophone to lead the melody, set to a medium swing tempo, reflecting the rhythmic pulse of city nightlife.</p>
+            <audio controls>
+                <source src="demo_samples/037Urban_Jazz_Nights.wav" type="audio/wav">
+                Your browser does not support the audio element.
+            </audio>
+            <div class="images">
+                <img src="sheet_music/sample6.jpeg" alt="Sheet Music Representation" style="width:60%; height:auto">
+                <img src="abc_representation/sample6.png" alt="ABC Notation Representation" style="width:40%; height:auto">
+            </div>
+            <a href="demo_samples/037Urban_Jazz_Nights.mid" download>Download MIDI</a>
+        </section>
+
+         <!-- Example 7-->
+         <section class="music-example">
+            <h2>Example 7</h2>
+            <p>Blues Alley Tale: Write a classic 12-bar blues in the key of E, using the standard I-IV-V progression (E7-A7-B7). Keep the tempo moderate to slow, allowing each chord to carry the emotional weight of the blues narrative. Add a soulful harmonica or guitar melody to enhance the storytelling aspect of the music.</p>
+            <audio controls>
+                <source src="demo_samples/043Blues_Alley_Tale.wav" type="audio/wav">
+                Your browser does not support the audio element.
+            </audio>
+            <div class="images">
+                <img src="sheet_music/sample7.jpeg" alt="Sheet Music Representation" style="width:40%; height:auto">
+                <img src="abc_representation/sample7.png" alt="ABC Notation Representation" style="width:40%; height:auto">
+            </div>
+            <a href="demo_samples/043Blues_Alley_Tale.mid" download>Download MIDI</a>
+        </section>
+
+         <!-- Example 8-->
+         <section class="music-example">
+            <h2>Example 8</h2>
+            <p>Renaissance Faire Dance: Take a step back in time to a cheerful and historical Renaissance faire dance in G major. The chord progression should be G-C-D-G, highlighting instruments like the lute, recorder, and viola da gamba. Set a lively tempo and create a dance-like rhythm that captures the spirit of a Renaissance celebration. The emotion should be cheerful and historical.</p>
+            <audio controls>
+                <source src="demo_samples/056Renaissance_Faire_Revisited.wav" type="audio/wav">
+                Your browser does not support the audio element.
+            </audio>
+            <div class="images">
+                <img src="sheet_music/sample8.jpeg" alt="Sheet Music Representation" style="width:40%; height:auto">
+                <img src="abc_representation/sample8.png" alt="ABC Notation Representation" style="width:40%; height:auto">
+            </div>
+            <a href="demo_samples/056Renaissance_Faire_Revisited.mid" download>Download MIDI</a>
+        </section>
+
+         <!-- Example 9-->
+         <section class="music-example">
+            <h2>Example 9</h2>
+            <p>Dreamy Indie Road Trip: Compose a dreamy indie pop piece in G major. The tempo should be medium, creating a relaxed and contemplative mood suitable for a road trip. The chord progression will be G, D, Em, C, and should unfold over 24 bars. The ensemble should include four voices, featuring acoustic guitar, synth, bass, and drums. The acoustic guitar should be the primary melodic driver, offering gentle, rhythmic strumming that evokes the feeling of a leisurely journey. The synth should add a layer of dreaminess, with ethereal pads or soft, melodic lines that enhance the song's contemplative nature. The bass should provide a solid, yet unobtrusive foundation, grounding the composition while allowing the other instruments to shine. Drums should maintain a steady, simple beat, echoing the steady pace of a road trip. This composition should encapsulate the essence of a dreamy, introspective journey, perfect for long drives along scenic routes.</p>
+            <audio controls>
+                <source src="demo_samples/088Dreamy_Indie_Road_Trip.wav" type="audio/wav">
+                Your browser does not support the audio element.
+            </audio>
+            <div class="images">
+                <img src="sheet_music/sample9.jpeg" alt="Sheet Music Representation" style="width:40%; height:auto">
+                <img src="abc_representation/sample9.png" alt="ABC Notation Representation" style="width:40%; height:auto">
+            </div>
+            <a href="demo_samples/088Dreamy_Indie_Road_Trip.mid" download>Download MIDI</a>
+        </section>
+
+         <!-- Example 10-->
+         <section class="music-example">
+            <h2>Example 10</h2>
+            <p>Retro Video Game Adventure: Develop a playful chiptune piece in F major with a fast tempo. The chord progression should be F, G, Am, Bb, spanning 32 bars. Use 8-bit synth and electronic drums. The 8-bit synth should provide nostalgic, catchy melodies reminiscent of classic video games, while the electronic drums should add a rhythmic, upbeat backing. This track should evoke the excitement and adventure of retro video gaming.</p>
+            <audio controls>
+                <source src="demo_samples/139Retro_Video_Game_Adventure.wav" type="audio/wav">
+                Your browser does not support the audio element.
+            </audio>
+            <div class="images">
+                <img src="sheet_music/sample10.jpeg" alt="Sheet Music Representation" style="width:30%; height:auto">
+                <img src="abc_representation/sample10.png" alt="ABC Notation Representation" style="width:70%; height:auto">
+            </div>
+            <a href="demo_samples/139Retro_Video_Game_Adventure.mid" download>Download MIDI</a>
+        </section>
+
+
+
+
+
+      
+        
+       
+
+    </main>
+</body>
+</html>

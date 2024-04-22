@@ -1,0 +1,37 @@
+X:1
+T:Romantic Parisian Stroll
+C:Melody Composer & Harmony Artist
+M:3/4
+L:1/8
+Q:1/4=120
+K:F
+%%MIDI program 40  % Violin - Melody
+%%MIDI program 21  % Accordion - Harmony
+%%MIDI program 25  % Gypsy Guitar - Rhythm
+V:1 name="Violin" clef=treble
+V:2 name="Accordion" clef=treble
+V:3 name="Gypsy Guitar" clef=bass
+%
+V:1
+|:"F"f2 a2 c2 | d4 c2 |"Bb"b2 b2 c2 | d4 b2 |
+| "C7"a2 f2 e2 | d4 c2 |"F"f6 | f4 z2 |
+|"Bb"d2 f2 a2 | g4 f2 | "C7"e2 c2 G2 | c4 A2 |
+| "F"c3 a f2 | a4 c2 |"Bb"d6 | d4 z2 |
+|"C7"c2 e2 g2 | f4 e2 | "F"a2 f2 d2 |"Bb"b4 c2 |
+| "C7"a2 c2 e2 |"F"f4 z2 | "F7"a4 g2 | f4 z2:|
+%
+V:2
+|:"F"A,2 C2 F2 | E4 C2 |"Bb"F2 F2 E2 | D4 F2 |
+| "C7"G,2 C2 B,2 | A,4 G,2 |"F"F6 | F4 z2 |
+|"Bb"D2 F2 B,2 | A,4 G,2 | "C7"C2 A,2 E,2 | G,4 C2 |
+| "F"A,2 C2 A,2 | F4 A,2 |"Bb"D6 | D4 z2 |
+|"C7"C2 E2 C2 | G,4 F2 | "F"A,2 F2 A,2 |"Bb"F4 E2 |
+| "C7"G,2 B,2 G,2 |"F"C4 z2 | "F7"C4 B,2 | F4 z2:|
+%
+V:3
+|:"F"[f2a2] [ec]2 [fa]2 | [e2g2]^c2 a2 d'2 |"Bb"[fb]2 [df]2 [Ac]2 | F2 D2 F2 D2 F2 |
+| "C7"[EG]2 [EG]2 [EC]2 | [C2E2] [CE]2 [C2E2] |"F"F2 F2 F2 F2 F2 F2 | F4 z2 |
+|"Bb"[db]2 [df]2 [dB]2 | [FA]2 [FA]2 [F2A2] | "C7"[e2c2] [ec]2 [Gc]2 | C2 E2 C2 E2 C2 E2 |
+| "F"[A,2C2] [AC]2 [A2C2] | [F2A2] [AF]2 [A2F2] |"Bb"[D2F2] [DF]2 [D2F2] | D4 z2 |
+|"C7"[e2g2] [eg]2 [e2g2] | [C2E2] [CE]2 [C2E2] | "F"[A2c2] [Ac]2 [A2c2] |[B,2D2] [BD]2 [B,2D2] |
+| "C7"[C2E2] [CE]2 [C2E2] |"F"F4 z2 | "F7"[A,2C2] [AC]2 [A,2C2] | F4 z2:|

@@ -1,0 +1,32 @@
+ 
+X:1
+T:Tropical Rainforest Rhapsody
+C:Composer
+M:4/4
+L:1/8
+K:Dmin
+Q:1/4=100
+V:1 name="Flute" clef=treble
+%%MIDI program 73   ; Flute for melody to imitate the sound of birds
+|:"Dm"A2de f2ed|"C"cAGF "Bb"G2AB|"A"A4 -A2z2|
+"Dm"f3g afdf|"C"e2c2 "Bb"d4|"A"cAdc BAGF|
+"Dm"D2FG A2GF|"C"EGcE "Bb"D2DE|"A"F2E2 D4:|
+|:"Dm"d2^c2 A4|"C"B2AG B2GF|"Bb"G2AB "A"c4|
+"Dm"a6 gf|"C"e2gf e2dc|"Bb"d4 c2BA|
+"Dm"BcdB AGFE|"C"DCDE FGAF|1 "Bb"GABc "A"d4:|2 "Bb"GABc "A"d2z2||
+V:2 name="Marimba" clef=treble
+%%MIDI program 12   ; Marimba for raindrop-like harmonic support
+|:"Dm"F4 A3G|"C"A2GF "Bb"E3F|"A"A4 -A2z2|
+"Dm"d4 c3A|"C"B2AG "Bb"A3G|"A"F4 E2DC|
+"Dm"D2GF E2DE|"C"F2ED "Bb"C2DE|"A"E4 D4:|
+|:"Dm"A2^G2 F4|"C"E2DC E2DC|"Bb"D4 "A"C4|
+"Dm"f6 dc|"C"e2cd B2AG|"Bb"c4 B2AG|
+"Dm"FEDF EFGA|"C"GFGA BAGF|1 "Bb"E2DE "A"C4:|2 "Bb"E2DE "A"C2z2||
+V:3 name="Acoustic Bass" clef=bass
+%%MIDI program 32   ; Acoustic Bass for a deep, resonant foundation
+|:"Dm"D4 F3E|"C"G4 "Bb"F3G|"A"E4 E4|
+"Dm"A4 G2F2|"C"E4 "Bb"D4|"A"C4 B,4|
+"Dm"D4 C3D|"C"E4 "Bb"F4|"A"G4 A,4:|
+|:"Dm"A,4 D4|"C"G,4 C4|"Bb"F4 "A"E4|
+"Dm"D6 CD|"C"E4 G4|"Bb"D4 C4|
+"Dm"D3C D3C|"C"E4 F4|1 "Bb"F2DC "A"D4:|2 "Bb"F2DC "A"D4z2||

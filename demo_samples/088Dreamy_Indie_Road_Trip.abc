@@ -1,0 +1,49 @@
+abc
+X:1
+T:Dreamy Indie Road Trip
+C:Music Production Team
+M:4/4
+L:1/8
+Q:1/4=90
+K:G
+%%score (Guitar) (Synth) (Bass) (Drums)
+V:1 name="Guitar" clef=treble         %%MIDI program 24
+V:2 name="Synth" clef=treble          %%MIDI program 88
+V:3 name="Bass" clef=bass             %%MIDI program 33
+V:4 name="Drums" clef=perc
+% 1. Guitar (Revised by Melody Agent)
+[V:1]|:"G" D2 D2 E2 D2 |"D" B,2 A2 F4 |"Em" G2 B2 A2 G2 |"C" E2 C2 E4 |
+     "G" B2 d2 e2 d2 |"D" A3 F A2 d2 |"Em" e2 e2 G2 E2 |"C" G2 E2 C4 |
+     "G" B2 G2 A2 B2 |"D" F2 D2 F2 A2 |"Em" G2 F2 E2 D2 |"C" C2 G,2 C4 |
+     "G" d2 B2 A2 G2 |"D" B,2 A2 F2 A2 |"Em" E2 G2 F2 E2 |"C" E2 C2 E4 :|
+     "G" B2 d2 e2 f2 |"D" g2 f2 e2 d2 |"Em" B2 e2 d2 B2 |"C" g2 e2 d4 |
+     "G" d3 B A2 B2 |"D" d2 F2 A2 d2 |"Em" e2 G2 E4 |"C" C3 E G2 E2 |
+     "G" B4 d4 |"D" A3 F A2 d2 |"Em" e2 G2 E4 |"C" c3 E G2 E2 |
+     "G" d2 B2 A2 G2 |"D" A3 B A2 F2 |"Em" G2 E2 E2 D2 |"C" C2 E2 D4 |]
+% 2. Synth (Revised by Harmony Agent)
+[V:2]|:"G"G2 A2 B2 G2 |"D"A2 F2 A2 d2 |"Em"e2 e2 G2 e2 |"C"c2 c2 E2 c2 |
+     "G"G2 B2 d2 G2 |"D"F2 A2 d2 F2 |"Em"E2 G2 B2 e2 |"C"E2 G2 e2 c2 |
+     "G"G2 B2 A2 F2 |"D"D2 F2 A2 D2 |"Em"E4 G2 B2 |"C"C2 E2 G2 c2 |
+     "G"G2 A2 G2 F2 |"D"D2 (3ABc d4 |"Em"e2 e2 (3efg a2 |"C"c2 E2 G2 E2 :|
+     "G"G4- G2 g2 |"D"f2 e2 d2 c2 |"Em"g2 f2 e2 d2 |"C"c2 E2 G2 E2 |
+     "G"G2 B2 d2 d2 |"D"d2 A2 F2 A2 |"Em"e2 e2 E2 E2 |"C"C2 E2 G2 c2 |
+     "G"G4 B4 |"D"D2 (3ABc d4 |"Em"E2 G2 B2 e2 |"C"C2 (3EFG A4 |
+     "G"G2 A2 B2 d2 |"D"A2 F2 A2 F2 |"Em"E2 G2 E2 G2 |"C"C2 E2 E2 C2 |]
+% 3. Bass (Revised by Harmony Agent)
+[V:3]|:"G"G,2 D2 G,2 B,2 |"D"D,2 A,2 D2 F2 |"Em"E,2 G,2 E2 G,2 |"C"C,2 E,2 C2 E,2 |
+     "G"G,3 B, D4 |"D"D,2 F2 A,4 |"Em"E,4 E,2 G,2 |"C"C,2 E,2 G,4 |
+     "G"G,4 G,2 B,2 |"D"D,4 d2 A,2 |"Em"E,2 G,2 B,4 |"C"C,2 G,2 C4 |
+     "G"G,2 D,2 G,2 B,2 |"D"A,2 D2 F4 |"Em"E,3 B, E4 |"C"C,2 C,2 E2 G,2 :|
+     "G"G,4 G,2 D2 |"D"D,4- D,2 F,2 |"Em"E,2 G,2 E4 |"C"C,3 E G,4 |
+     "G"G,4 G,2 B,2 |"D"D,2 A,2 D4 |"Em"E,4- E,2 G,2 |"C"C,2 E,2 G,4 |
+     "G"G,2 D2 G,4 |"D"D,2 F2 A,4 |"Em"E,2 e2 G4 |"C"C,2 E,2 G,4 |
+     "G"G,2 B,2 G,4 |"D"D,2 (3ABc d4 |"Em"E,2 G,2 B,4 |"C"C,2 E,2 C4 |]
+% 4. Drums (Revised and detailed by the Instrument Agent)
+[V:4]|:"G" z4 z2 BD |"D" z2 cA z2 cF |"Em" z4 z2 E2 |"C" z2 G2 z2 E2 |
+     "G" z4 z2 BD |"D" z2 FA z2 AF |"Em" z4 z2 E2 |"C" z2 C2 z2 G2 |
+     "G" z4 z2 D2 |"D" z2 AF z2 AF |"Em" z4 z2 B,2 |"C" z2 E2 z2 C2 |
+     "G" z4 z2 B2 |"D" z2 cA z2 FA |"Em" z2 B2 z2 G2 |"C" z4 z2 E2 :|
+     "G" z2 cB z2 Bc |"D" z2 AF z2 A2 |"Em" z2 GA z2 GE |"C" z2 E2 z2 C2 |
+     "G" z3 B z2 D2 |"D" z2 cA z2 AF |"Em" z4 z2 E2 |"C" z3 C z2 G,2 |
+     "G" z4 z2 Bc |"D" z2 AF z2 D2 |"Em" z4 z2 E2 |"C" z2 C2 z2 E2 |
+     "G" z2 BD z2 B2 |"D" z3 A z2 c2 |"Em" z4 z2 E2 |"C" z2 G2 z2 E4 |]

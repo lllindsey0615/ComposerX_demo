@@ -1,0 +1,39 @@
+abc
+X:1
+T:Urban Jazz Nights
+C:Music Production Team
+M:4/4
+L:1/8
+Q:1/4=120
+K:Eb
+V:1 name="Saxophone" clef=treble
+%%MIDI program 65
+V:2 name="Piano RH" clef=treble
+%%MIDI program 1
+V:3 name="Piano LH" clef=bass
+%%MIDI program 1
+V:4 name="Bass" clef=bass
+%%MIDI program 32
+V:5 name="Drums" clef=perc
+%%MIDI channel 10
+%%MIDI program 0
+%
+%%score (V1 V2 V3) (V4 V5)
+%
+% Voice Definitions
+[V:1] |: "Fm7"dc B2 A2 G2 | "Bb7"F4 E2 D2 | "Ebmaj7"G2 A2 B2 G2 | "Abmaj7"E6 F2 |
+       "Fm7"A2 G2 F2 E2 | "Bb7"D4 C2 B,2 | "Ebmaj7"C2 B,2 A,2 B,2 |1 "Abmaj7"F6 z2 :|2 "Abmaj7"F4 E2 D2 |
+       |: "Fm7"G2 A2 c2 d2 | "Bb7"e4 d2 c2 | "Ebmaj7"A2 G2 F2 E2 | "Abmaj7"D6 B,2 |
+       "Fm7"c2 d2 e2 f2 | "Bb7"g4 f2 e2 | "Ebmaj7"d2 B2 c2 e2 |1 "Abmaj7"B6 z2 :|2 "Abmaj7"B4 A2 G2 |]
+[V:2] |: [A,2F2] [A,2c2] | [d6B2] | [G,2B,2] [G,2e2] | [c6A2] |
+       [A,2c2] [A,2F2] | [D6F2] | [G,,2B,,2] [G,,2e2] |1 [A,6] z2 :|2 [c4A2] F2 ||
+       |: [A,2c2] [A,2e2] | [d6B2] | [B,2G,2] [B,2e2] | [c6A2] |
+       [c2e2] [c2a2] | [d6B2] | [B2e2] [g2B2] |1 [A,6] z2 :|2 [A,4G,2] F2 |]
+[V:3] |: [F,4A,4] [F,4A,4] | [B,4D4] [B,4D4] | [E,4G,4] [E,4G,4] | [A,4C4] [A,4C4] |
+       [F,4A,4] [F,4A,4] | [B,4D4] [B,4D4] | [E,4G,4] [E,4G,4] |1 [A,4C4] [A,4C4] :|2 [F,4A,4] [E,4G,4] ||
+       |: [A,4C4] [A,4C4] | [B,4D4] [B,4D4] | [E,4G,4] [E,4G,4] | [A,4C4] [A,4C4] |
+       [A,4C4] [A,4C4] | [B,4D4] [B,4D4] | [E,4G,4] [E,4G,4] |1 [A,4C4] [A,4C4] :|2 [A,4C4] [G,4B,4] |]
+[V:4] z2 F,6 | B,6 B,2 | G,6 G,2 | C8 |
+      F,6 F,2 | B,6 B,2 | G,6 G,2 | C8 |]
+[V:5] z4 c2 z2 | c2 z2 B2 z2 | z4 c2 z2 | c2 z2 B2 z2 |
+      z4 c2 z2 | c2 z2 B2 z2 | z4 c2 z2 | c2 z2 B2 z2 |]

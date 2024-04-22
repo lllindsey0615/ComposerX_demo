@@ -1,0 +1,19 @@
+abc
+X:1
+T:Journey Through the Highlands
+C:AI Music Production Team
+M:6/8
+L:1/8
+Q:3/8=100
+K:A
+V:1 name="Bagpipe Lead" %%MIDI program 109
+|: "A"A2e c2A | "D"dcd B2G | "E"EFE G2B | "A"A2A A3 :|
+|: "A"ece a2f | "D"d2D F3 | "E"G2E B3 | "A"A2A A3 :|
+V:2 name="String Harmony" %%MIDI program 48
+|:E2c A2F |F2D D2E|G2E F2D|E2E E3:|
+|:c2B A2c|B2A G2F|A2F E2D|C2C C3:|
+V:3 name="Percussion" %%MIDI channel 10 %%MIDI program 115
+M:none
+L:1/16
+|: z8 AAz4 Bz4 | z8 Gz4 Fz4 | z8 Ez4 Dz4 | z8 Az4 Cz4 :|
+|: z8 Ez4 Az4 | z8 Gz4 Az4 | z8 Az4 Gz4 | z8 Cz4 E2z4 :|
